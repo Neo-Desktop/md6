@@ -1,25 +1,14 @@
 # md6
 
-md6 FTW
+Forked from Snack-X/md6
 
 ## Supports
 
-* php
+* Node.js
+* javascript
 
 ## LICENSE
+To the extent possible under law, [Amrit Panesar](https://github.com/Neo-Desktop) has waived all copyright
+and related or neighboring rights to [node-md6](https://github.com/Neo-Desktop/md6#).
 
-```
-        DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-                    Version 2, December 2004 
-
- Copyright (C) 2014 Snack
-
- Everyone is permitted to copy and distribute verbatim or modified 
- copies of this license document, and changing it is allowed as long 
- as the name is changed. 
-
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
-
-  0. You just DO WHAT THE FUCK YOU WANT TO.
-```
+This work is published from: United States.
