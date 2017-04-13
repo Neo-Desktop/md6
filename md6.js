@@ -332,4 +332,4 @@ var md6hash = function () {
     };
 };
 
-module.exports = md6hash();
+module.exports = md6hash;
