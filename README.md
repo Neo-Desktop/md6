@@ -2,10 +2,13 @@
 
 Forked from Snack-X/md6
 
+Uses the [UMD](https://github.com/umdjs/umd) pattern
+
 ## Supports
 
-* Node.js
-* javascript
+* AMD
+* Node
+* Browser
 
 ## LICENSE
 To the extent possible under law, [Amrit Panesar](https://github.com/Neo-Desktop) has waived all copyright
