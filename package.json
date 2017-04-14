@@ -1,6 +1,6 @@
 {
   "name": "node-md6",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "MD6 Implementation in Node",
   "main": "md6.js",
   "files": [

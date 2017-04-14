@@ -36,7 +36,7 @@
 
     var exports = {};
 
-    exports.md6hash = function () {
+    exports._hash = function () {
         function to_word(input) {
             var i, length = input.length, output = [];
 
@@ -351,6 +351,20 @@
             hex: _hex,
             raw: _raw
         };
+    };
+
+    exports.getHashOfText = function() {
+        var out = _hash.apply(this, arguments);
+        return out.hex;
+    };
+
+    exports.getRawHashOfText = function() {
+        var out = _hash.apply(this, arguments);
+        return out.raw;
+    };
+
+    exports.getHashAsObject = function() {
+        return _hash.apply(this, arguments);
     };
 
     return exports;
