@@ -36,7 +36,7 @@
 
     var exports = {};
 
-    exports._hash = function () {
+    _hash = function () {
         function to_word(input) {
             var i, length = input.length, output = [];
 
