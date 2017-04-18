@@ -348,8 +348,8 @@
         }
 
         return {
-            hex: _hex,
-            raw: _raw
+            hex: _hex.apply(this, arguments),
+            raw: _raw.apply(this, arguments)
         };
     };
 

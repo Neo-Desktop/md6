@@ -1,26 +1,25 @@
-var md6hash = require("../md6").md6hash;
+var md6 = require("../md6");
 var fs = require("fs");
 
-var md6 = new md6hash();
 var result = fs.readFileSync("result.csv", "ascii");
 result = result.split("\n");
 
 var total = 0, ok = 0;
 
-for(var i in result) {
-	var line = result[i];
-	if(line === "") break;
+for (var i in result) {
+    var line = result[i];
+    if (line === "") break;
 
-	var a = line.split(",");
+    var a = line.split(",");
 
-	var size = parseInt(a[0], 10);
-	var data = a[1];
-	var comp = a[2];
+    var size = parseInt(a[0], 10);
+    var data = a[1];
+    var comp = a[2];
 
-	var hash = md6.hex(data, size);
+    var hash = md6.getHashOfText(data, size);
 
-	total++;
-	if(hash === comp) ok++;
+    total++;
+    if (hash === comp) ok++;
 }
 
 console.log("" + ok + " / " + total + " test(s) passed.");
